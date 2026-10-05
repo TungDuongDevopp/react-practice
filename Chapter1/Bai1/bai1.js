@@ -1,0 +1,12 @@
+const x ={};
+x.foo = 'bar';
+console.log(x);
+x.foo='baz';
+console.log(x);
+x.foo ='qux';
+console.log(x);
+const y =[];
+y.push('foo');
+console.log(y);
+y.push('bar');
+console.log(y);
