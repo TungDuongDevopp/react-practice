@@ -1,11 +1,15 @@
-const MyComponent = () => {
-    return(
-        <div>
-            <h2>My Component</h2>
-            {Math.floor(Math.random() * 100)}
-            <p>This is a simple functional component.</p>
-        </div>
-    )
-}
 
-export default MyComponent
+import UserList from "./UserList";
+
+import "./MyComponent.css";
+
+const MyComponent = () => {
+        
+  return (
+    <div className="my-dashboard">
+      <UserList />     
+    </div>
+  );
+};
+
+export default MyComponent;
